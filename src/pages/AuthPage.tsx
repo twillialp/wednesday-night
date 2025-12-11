@@ -126,7 +126,7 @@ function AuthPage() {
           </label>
           <input
             type="submit"
-            value="Register"
+            value="Login"
             className="border py-2 px-4 rounded"
           />
 
