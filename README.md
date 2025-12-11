@@ -1,10 +1,10 @@
-Discombobulated! — The Modern To-Do App for the Self-Aware
+#Discombobulated! — The Modern To-Do App for the Self-Aware
 
 Discombobulated! is a full-stack project management platform built using the MERN stack. It's designed for individual users named Addy and provides an intuitive interface for managing projects and tasks while maintaining strict security, ownership-based authorization, and a responsive, modern UI.
 
 This elegant creation integrates backend API architecture, authentication, authorization, full CRUD functionality, frontend state management, and deployment.
 
-1. Overview
+##1. Overview
 
 Discombobulated! is a collaborative project management application that supports:
 
@@ -17,7 +17,7 @@ Discombobulated! is a collaborative project management application that supports
 
 This project builds on concepts learned in backend development, database design, React architecture, and deployment platforms.
 
-2. Features
+##2. Features
 User Management
 
 User registration with password hashing (bcrypt)
@@ -56,7 +56,7 @@ Reusable component library (buttons, forms, project cards, task items)
 
 Loading and error states everywhere
 
-3. User Stories
+##3. User Stories
 User Management
 
 As a new user, I can create an account and log in.
@@ -91,7 +91,7 @@ As a project owner, I can invite other registered users.
 
 As a collaborator, I can view/update tasks in projects I’m invited to.
 
-4. Tech Stack
+##4. Tech Stack
 Frontend
 
 React
@@ -126,7 +126,7 @@ Render (backend Web Service)
 
 Render (frontend Static Site)
 
-5. Database Models
+##5. Database Models
 User
 
 username
@@ -157,7 +157,7 @@ status ("To Do", "In Progress", "Done")
 
 project: ref(Project)
 
-6. API Endpoints
+##6. API Endpoints
 Auth Routes — /api/auth
 Method	Endpoint	Description	Auth
 POST	/register	Create new user	Public
@@ -176,7 +176,8 @@ GET	/	Get all tasks for project	Protected
 POST	/	Create a new task	Protected
 PUT	/:taskId	Update task	Protected
 DELETE	/:taskId	Delete task	Protected
-7. Known Issues / Future Enhancements
+
+##7. Known Issues / Future Enhancements
 
 Add drag-and-drop task sorting
 
@@ -194,7 +195,7 @@ Add notifications for collaborators
 
 Add dark mode
 
-8. Credits
+##8. Credits
 Homepage Image: 
 Built by Addy Williams as part of the MERN Stack Capstone Project for Per Scholas.
 
