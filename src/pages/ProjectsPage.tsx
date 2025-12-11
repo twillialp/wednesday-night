@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { apiClient } from "../clients/api";
 import { Link } from "react-router-dom";
 import type { Project } from "../types";
+import { useParams } from "react-router-dom";
 
 function ProjectsPage() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -11,11 +12,13 @@ function ProjectsPage() {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
 
+  const { projectId } = useParams();
+
   useEffect(() => {
     const fetchProjects = async () => {
       try {
         setLoading(true);
-        const res = await apiClient.get("/api/projects");
+        const res = await apiClient.get(`/api/projects/${projectId}`);
         console.log(res.data);
         setProjects(res.data);
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -37,7 +40,7 @@ function ProjectsPage() {
 
     try {
       setLoading(true);
-      const res = await apiClient.post("/api/projects", { name, description });
+      const res = await apiClient.post("/api/projects/", { name, description });
       setProjects((prev) => [...prev, res.data]);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
