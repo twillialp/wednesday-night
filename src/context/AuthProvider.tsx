@@ -1,6 +1,7 @@
 import { createContext, useState } from "react";
 import type { User } from "../types";
 
+
 interface AuthContextType {
   user: User | null;
   setUser: (user: User) => void;
@@ -42,9 +43,20 @@ export default function AuthProvider({ children }: AuthProviderProps) {
     }
   });
 
-  const logIn = async (username: string, password: string) => {};
+  // useEffect(() => {
+  //   try {
 
-  const register = async (username: string, email: string, password: string) => {};
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // }, []);
+
+  const logIn = async (username: string, password: string) => {
+    console.log(username, password);
+
+  };
+
+  const register = async (username: string, email: string, password: string) => {console.log(username, password, email);};
 
   const logOut = () => {};
 
