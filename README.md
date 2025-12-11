@@ -1,4 +1,4 @@
-#Discombobulated! — The Modern To-Do App for the Self-Aware
+#Discombobulated! — The Modern To-Do App for the Self-Aware#
 
 Discombobulated! is a full-stack project management platform built using the MERN stack. It's designed for individual users named Addy and provides an intuitive interface for managing projects and tasks while maintaining strict security, ownership-based authorization, and a responsive, modern UI.
 
@@ -196,6 +196,6 @@ Add notifications for collaborators
 Add dark mode
 
 ##8. Credits
-Homepage Image: 
+Homepage Image: Sven Mieke
 Built by Addy Williams as part of the MERN Stack Capstone Project for Per Scholas.
 
