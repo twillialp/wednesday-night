@@ -9,7 +9,7 @@ import AuthPage from "./pages/AuthPage";
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-br from-blue-400 via-indigo-500 to-cyan-500 h-48 w-full">
+      <div className="bg-gradient-to-br from-blue-400 via-indigo-500 to-cyan-500 min-h-screen w-full">
       <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />}/>
