@@ -1,6 +1,6 @@
 #Discombobulated! — The Modern To-Do App for the Self-Aware#
 
-Discombobulated! is a full-stack project management platform built using the MERN stack. It's designed for individual users named Addy and provides an intuitive interface for managing projects and tasks while maintaining strict security, ownership-based authorization, and a responsive, modern UI.
+Discombobulated! is a full-stack project management platform built using the MERN stack. It's designed for **individual users named Addy** and provides an intuitive interface for managing projects and tasks while maintaining strict security, ownership-based authorization, and a responsive, modern UI.
 
 This elegant creation integrates backend API architecture, authentication, authorization, full CRUD functionality, frontend state management, and deployment.
 
@@ -18,42 +18,25 @@ Discombobulated! is a collaborative project management application that supports
 This project builds on concepts learned in backend development, database design, React architecture, and deployment platforms.
 
 ##2. Features
+
 User Management
-
 User registration with password hashing (bcrypt)
-
 JWT-based login and protected sessions
-
 Auth middleware for secure routes
-
 Project Management
-
 Create, read, update, and delete projects
-
 Ownership-based authorization: Only project owners can view or modify
-
 Dashboard showing all user-owned projects
-
 Task Management
-
 Nested tasks under each project
-
 CRUD operations for tasks
-
 Status field: "To Do", "In Progress", "Done"
-
 Authorization: Only project owners can modify tasks
-
 Frontend UI
-
 Responsive layout (desktop/tablet/mobile)
-
 Context API for user authentication
-
 React Router for SPA navigation
-
 Reusable component library (buttons, forms, project cards, task items)
-
 Loading and error states everywhere
 
 ##3. User Stories
