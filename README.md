@@ -182,3 +182,5 @@ Add dark mode
 Homepage Image: Sven Mieke
 Built by Addy Williams as part of the MERN Stack Capstone Project for Per Scholas.
 
+Need to take more notes here...
+
